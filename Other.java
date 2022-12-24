@@ -27,7 +27,7 @@ public class Other {
             }
 
             catch (Exception ex) {
-                count++;
+                count++ ;
             }
 
         }
@@ -38,7 +38,7 @@ public class Other {
     }
 
     public static void main(String[] args) throws Exception {
-
+System.out.println("Hello");
         Test obj = new Test();
         obj.A();
         obj.display();
